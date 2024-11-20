@@ -5,6 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thank You - SesiHairStudio</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .thank-you-container {
+            text-align: center;
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .thank-you-container img {
+            max-width: 70%; /* Adjusts image size to cover more of the screen */
+            height: auto;
+            margin: 20px auto;
+            display: block;
+            border-radius: 10px; /* Adds rounded corners for a polished look */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds subtle shadow for better aesthetics */
+        }
+        .thank-you-container a {
+            color: #ff5e5e;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .thank-you-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -24,10 +48,10 @@
     </header>
 
     <main>
-        <div style="text-align: center; padding: 40px;">
+        <div class="thank-you-container">
             <h2>Thank You!</h2>
             <p>We’ve sent your Wig Care Guide to your email. Please check your inbox for all the tips and tricks to maintain your wig.</p>
-            <img src="thank-you.png" alt="Thank You" style="max-width: 200px; height: auto; margin: 20px auto; display: block;">
+            <img src="thank-you.png" alt="Thank You">
             <p>Ready to explore more? <a href="products.html">Check out our products</a> or <a href="blog2.html">read more wig tips.</a></p>
         </div>
     </main>
